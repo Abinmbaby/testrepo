@@ -2,3 +2,6 @@ git init => initializing git in present folder
 git status => list all untracked files
 git add -A => add all untracked files to staging area from local storage
 git commit -m "your message" => staging area to local repository
+git remote add tst
+git remote -v=>cross check the remote repo were added or not
+git push -u tst master => final step to create repository on git hub
